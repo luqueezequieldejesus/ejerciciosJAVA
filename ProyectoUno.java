@@ -15,6 +15,9 @@ public class ProyectoUno {
 
     /**
      * @param args the command line arguments
+     * 1) Se debe mostrar el siguiente mensaje: 
+     * Esto funciona de maravilla
+     * 
      */
     public static void main(String[] args) {
         /**int numeroUno;
@@ -23,7 +26,7 @@ public class ProyectoUno {
         numeroUno= miScanner.nextInt();
         System.out.println("El número " + numeroUno);*/
         
-        int numeroUno;
+        /**int numeroUno;
         int numeroDos;
         int suma;
         Scanner miScanner = new Scanner(System.in);
@@ -37,7 +40,7 @@ public class ProyectoUno {
         
         suma = numeroUno + numeroDos;
         System.out.println("La suma es " + suma);
-      
+      **/
         
         // TODO code application logic here
     }
