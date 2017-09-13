@@ -20,6 +20,9 @@ public class ProyectoUno {
      * 
      */
     public static void main(String[] args) {
+        
+        System.out.println("Esto funciona de maravilla");
+        
         /**int numeroUno;
         Scanner miScanner = new Scanner(System.in);
         System.out.println("Ingrese el primer número: ");
