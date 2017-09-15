@@ -5,19 +5,32 @@
  */
 package ejerciciosiete;
 
+import java.util.Scanner;
+
 /**
  *
- * @author alumno
+ * @author sebastianurbina
  */
 public class EjercicioSiete {
 
     /**
      * @param args the command line arguments
-     * Se pide la base de un cuadrado y se informa el perímetro.
+     * Se pide la base de un cuadrado y se informa el perímetro
      * 
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int base;
+        int perimetro;
+        
+        Scanner miScanner = new Scanner(System.in);
+        
+        System.out.println("¿Cuál es la base del cuadrado? ");
+        base = miScanner.nextInt();
+        
+        perimetro = base * 4;
+        
+        System.out.println("El perimetro es de " + perimetro);
     }
     
 }
