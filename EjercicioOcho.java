@@ -5,19 +5,38 @@
  */
 package ejercicioocho;
 
+import java.util.Scanner;
+
 /**
  *
- * @author alumno
+ * @author sebastianurbina
  */
 public class EjercicioOcho {
 
     /**
      * @param args the command line arguments
-     * Se pide el largo y el ancho de un terreno y se informa la superficie del mismo. 
+     * Se pide el largo y ancho de un terreno u se pide la superficie del mismo.
      * 
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int largo;
+        int ancho;
+        int superficie;
+        
+        Scanner miScanner = new Scanner(System.in);
+        
+        System.out.println("Ingrese el largo: ");
+        largo= miScanner.nextInt();
+        
+        System.out.println("Ingrese el ancho: ");
+        ancho= miScanner.nextInt();
+        
+        superficie = largo * ancho;
+        
+        System.out.println("El promedio es " + superficie);
+        
+        
     }
     
 }
